@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title> Give your Pet</title> 
+</head>
+<style>
+    h1{
+        color: white;
+    }
+    body{
+        background-color: rgba(0,0,0,0.5);
+       
+    }
+    form
+    {
+       
+
+        border: 2px solid black;
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+
+        font-weight: bolder;
+        height: fit-content;
+        width: 50%;
+        padding: 20px 20px;
+       margin: 350px ;
+        margin-top: 60px;
+        text-align:justify;
+        
+    }
+    form button{
+        font-size:20px;
+        text-align: center;
+        font-variant: small-caps;
+    }
+    button:hover{
+        background-color: rgba(0,0,0,0.5);
+        color: gold;
+    }
+    @media screen and (max-width:676px)  {
+        form{
+            margin: 0;
+            width: 100%;
+        }
+        
+    }
+    </style>
+<body> 
+    <center><h1>Give Your Pet</h1></center>
+    <form>
+        <center><h3>REGISTER HERE</h3></center>
+        <hr> 
+        <center><h1>YOUR DETAILS</h1></center>
+
+        <label> First Name* : </label><br>
+        <input type="text" id="main" placeholder="Enter Your First Name" required > 
+        <br>
+        <br>
+    <label> Last Name* : </label><br>
+        <input type="text" id="main" placeholder="Enter Your Last Name" required>
+        <br>
+        <br>
+    <label> E-mail* :</label><br>
+        <input type="email" id="main" placeholder="abc@gmail.com" required>
+        <br> 
+        <br>
+    <label> Age* : </label> <br>
+        <input type="number" id="main" min="18" placeholder='18'>
+        <br> <br>
+    <label> Contact Number :</label> <br>
+        <input type="text" id="main" placeholder="****" required>
+        <br>
+        <br>
+    <label> Address* : </label> <br>
+        <input type="text" id="main" placeholder="Enter Your Address" required> 
+        <br>
+        <br>
+    <label> Pincode* :</label><br>
+        <input type="text" id="main" placeholder="123456" required>
+        <br>
+        <br>
+    <label> City* : </label><br>
+        <Input type="text" id="main" placeholder="Delhi" required >
+             <br>
+            <br>
+    <label> State* : </label><br>
+        <input tppe="text" id="main" placeholder="Delhi" required> 
+        <br>
+        <br>
+        <label> Country *: </label><br>
+        <input type="text" id="main" placeholder="India" required> <br><br>
+
+
+        <label for="income"> Annual Income*:</label><br>
+        <input type="text" name="income" id="pet">
+        <br><br>
+        <hr>
+
+            <center><h1>ANIMAL DETAILS</h1></center>
+        <label for="Animal breed">Animal You WAant To Donate </label><br>
+        <input type="radio" name="Animal breed" id="pet" value="Dog" checked>Dog<br>
+        <input type="radio" name="Animal breed" id="pet" value="Cat">Cat<br>
+        <input type="radio" name="Animal breed" id="pet" value="Bird">Bird <br>
+        <input type="radio" name="Animal breed" id="pet " value="others">others <br>
+        <input type="text" name="Animal breed" id="pet" placeholder="Specify name of Animal">
+        <br><br>
+
+
+        <label for="reason"> Why you want to give your pet ?</label> <br>
+        <textarea name="reason" placeholder="Give Reason" id="pet" rows=10 cols=30 required></textarea> 
+         <br><br>
+
+
+        
+         <label> Do your pet have any disease/problem ? </label><br>
+         <input type="radio" name="disease" id="pet" value="Yes">Yes<br>
+         <input type="radio" name="disease" id="pet" value="No">No<br>
+         <br>
+
+
+
+         <label for="mention">If Any please mention </label> <br>
+         <input type="text" name="metion" id="pet" > 
+         <br><br>
+
+
+         <label for ="pet">Age of your Pet</label><br>
+        <input type="number" name="pet" id="pet" max="6">
+        <br><br>
+            <hr>
+
+        <center><button type="submit">SUBMIT</button>
+        <button type="Rset">RESET</button></center>
+
+
+
+    </form>
+</body>

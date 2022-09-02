@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS|PET ADOPTION</title>
+    <style>
+        h1{
+            color: white;
+        }
+        body{
+            background-color: rgba(0,0,0,0.5);
+           
+        }
+        form
+        {
+           
+
+            border: 2px solid black;
+            background-color: rgba(0,0,0,0.5);
+            color:white;
+
+            font-weight: bolder;
+            height: fit-content;
+            width: 50%;
+            padding: 20px 20px;
+           margin: 300px ;
+            margin-top: 60px;
+            text-align:justify;
+            
+        }
+        form button{
+            font-size:20px;
+            text-align: center;
+            font-variant: small-caps;
+        }
+        button:hover{
+            background-color: rgba(0,0,0,0.5);
+            color: gold;
+        }
+        @media screen and (max-width:676px)  {
+            form{
+                margin: 0;
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body> 
+    <center><h1>PET ADOPTION APPLICATION FORM</h1></center>
+    <div style="text-align: center;">
+    <form>
+    <div class="name">
+        <div class="register">
+<center><head> Register Here   </head></center>
+<hr>
+<center><h1> Your Details </h1></center>
+ 
+    <label> First Name* : </label><br>
+        <input type="text" id="main" placeholder="Enter Your First Name" required > 
+        <br>
+        <br>
+    <label> Last Name* : </label><br>
+        <input type="text" id="main" placeholder="Enter Your Last Name" required>
+        <br>
+        <br>
+    <label> E-mail* :</label><br>
+        <input type="email" id="main" placeholder="abc@gmail.com" required>
+        <br> 
+        <br>
+    <label> Age* : </label><br> 
+        <input type="number" id="main" min="18" placeholder='18'>
+        <br> <br>
+    <label> Contact Number :</label><br> 
+        <input type="text" id="main" placeholder="****" required>
+        <br>
+        <br>
+    <label> Address* : </label> <br>
+        <input type="text" id="main" placeholder="Enter Your Address" required> 
+        <br>
+        <br>
+    <label> Pincode* :</label><br>
+        <input type="text" id="main" placeholder="123456" required>
+        <br>
+        <br>
+    <label> City* : </label><br>
+        <Input type="text" id="main" placeholder="Delhi" required >
+             <br>
+            <br>
+    <label> State* : </label><br>
+        <input tppe="text" id="main" placeholder="Delhi" required> 
+        <br>
+        <br>
+        <label> Country *: </label><br>
+        <input type="text" id="main" placeholder="India" required>
+<hr>
+
+<center><h1>ANIMAL PREFERENCE</h1></center>
+
+        <label for="ANIMAL">ANIMAL YOU WANT TO ADOPT*:</label>
+             <select name="ANIMAL" id="ANIMAL" required>
+                 <option value="">--Select An Animal--</option>
+                 <option value="">DOG</option>
+                 <option value="">CAT</option>
+                 <option value="">BIRDS</option>
+             </select> 
+             <br>
+             <br>
+        
+
+        <label for="ANIMAL GENDER">ANIMAL GENDER*:</label>
+            <input type="radio" name="ANIMAL GENDER" id="ANIMAL GENDER" required>MALE
+            <input type="radio" name="ANIMAL GENDER" id="ANIMAL GENDER">FEMALE
+            <br>
+            <br>
+            <hr>
+        
+<center><h1> Your Family  </h1></center>
+    <LABEL> Why are you interested in finding a new puppy?*:<br>
+        <textarea name="reason" id="" cols="30" rows="04" required placeholder="type here..."  ></textarea>
+        <br><br>
+    </LABEL>
+    <label >
+        is this your first animal*:
+        <select>
+            <option value="yes">YES</option>
+            <option value="NO">No</option>
+        </select> <br><br>
+    </label>
+    <label >Is this your first time raising a baby animal:
+        <select>
+            <option value="yes">YES</option>
+            <option value="NO">No</option>
+        </select>
+        <br><br>
+    </label>
+
+
+    <label> Who are you adopting this dog for ? </label>
+        <br>
+        <input type ="radio" id="main" name="main"><label> Myself </label>
+         <br>
+        <input type="radio" id="main" name="main"><label> Others </label> 
+        <br> 
+        <br>
+
+    <label> Number of adults(18+ years) at home : </label>
+        <input type="number" id="main">
+        <br>
+         <br> 
+    <label> Number of children at home: </label>    
+     <br>
+        <input type="number" id="main"><label> 0-7 years</label> &nbsp; &nbsp;  
+        <input type="number" id="main"><label> 8-17 years</label>
+        <br>
+         <br>
+    <label> Any allergies in the family ? </label> 
+    <br>
+    <input type="radio" name="main" id="main"><label> Yes </label> &nbsp; &nbsp; 
+    <input type="radio" name="main" id="main"><label> No </label> 
+    <br>
+     <br>
+<label> Where will your pet stay during holidays </label> <br> 
+<input type="radio" name="holidays"><label> At home with care</label> &nbsp; 
+<input type="radio"name="holidays"><label>Boarding
+</label> &nbsp; <input type="radio"name="holidays" ><label>Other</label> 
+<input type="text"><label for="">Mention if You select others</label>
+<hr>
+<center><h1> Your Home </h1></center>
+
+    <label> What type of home do you live in ?</label> <br>
+    <input type="radio"><label>House</label> &nbsp; <input type="radio"><label>Apartment</label>
+    <br><br>
+    <label> On average , how many hours will your pet be alone ?</label> 
+    <input type="number"> <br> <br>
+    <label>Where will your pet stay during the day ?</label>
+    <input type="text"> <br> <br>
+    <label>Where will your pet stay at night ?</label>
+    <input type="text">  
+<hr>
+<center><h1> General Information</h1></center>
+
+    <label>Who will have the primary responsibilty of the pet ?</label>
+    <input type="text"> <br><br>
+    <label> How many hours of exercise can you give your pet ?</label>
+    <input type="number"> <br><br>
+    <label> Approximately how much do you think your dog will cost you per year ?</label> <br><br>
+    <label>Vet/medical</label>&nbsp;<input type='number'> &nbsp; 
+    <label>Food</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number"><br> <br>
+    <label>Boarding</label> &nbsp; &nbsp; <input type='number'> &nbsp; 
+    <label>Grooming</label><input type="number"> <br> <br>
+<hr>
+    <center>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+
+    </center>
+
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
+    

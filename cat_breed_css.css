@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+figcaption
+{
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+.dogs{
+    font-size: 30px;
+    opacity:0.6;
+    font-weight: bolder;
+}
+.dogs a{
+    color: white;
+}
+.cats
+{
+    font-size: 30px;
+    opacity:0.6;
+    font-weight: bolder;
+}
+.cats a{
+    color: white;
+
+}
+body
+{
+    background-color: #544179;
+}  
+.cats a.Active, .dogs a.Active
+{
+    background-color:#d96098;
+    color: black;
+}
+.img a{
+    color: black;
+}
+
+button
+{
+border:black;
+border-radius: 50px;
+border-style: double;
+font-size: 40px;
+background-color: transparent;
+}
+/*
+a:hover{
+
+color:#080118;
+font-size: 35px;
+}
+*/

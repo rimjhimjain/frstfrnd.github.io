@@ -1,0 +1,112 @@
+*
+    {
+    padding:0;
+    margin:0;
+    }
+   
+button
+    {
+        text-align: center;
+        font-size: 35px;
+        border: 4px solid black;
+        background-color:rgba(0,0,0,0.5);
+        color:whitesmoke;
+        border-radius: 50px;
+        margin: 5px 5px;
+        padding: 5px;
+    }
+button a:hover{
+    color:white;
+}
+body
+    {
+    overflow-x:hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+
+.section-container
+    {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+
+    }
+.section-container .columns
+    {
+    flex:0 0 auto;
+    width:50%;
+    }
+.section-container .columns.image
+    {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    }
+.section-container .columns.content .content-container
+    {
+    padding:40px 50px;
+    background-color: darkcyan;
+    }
+.section-container .columns.content .content-container h2
+    {
+    font-weight:700;
+    font-size:45px;
+    margin-bottom:20px;
+    }
+.section-container .columns.content .content-container p
+    {
+    font-weight:400;
+    font-size:30px;
+    margin-bottom:20px;
+    margin-bottom:15px;
+    text-align:justify;
+    background-color: darkcyan;
+    }
+.button{
+    background-color:#E8E8A6;
+    border: 5px solid goldenrod;
+    text-align: center;
+}
+.img{
+    background-color: black;
+    border: 5px solid black;
+}
+@media screen and (max-width:767px)
+    {
+    .section-container
+    {
+        flex-flow:row wrap;
+    }
+    .section-container .columns.image
+        {
+            display:block;
+            order:1;
+            width:100%;
+            height:350px;
+        }
+    .section-container .columns.content
+        {
+            display:block;
+            order:2;
+            width:100%;
+        }
+    .section-container .columns.content .content-container
+        {
+            padding:20px 35px;
+        }
+    .section-container .columns.content .content-container h5
+        {
+            margin-bottom:5px;
+        }
+    .selection-container .columns.content .content-container ul li{
+
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+}

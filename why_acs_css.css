@@ -1,0 +1,158 @@
+*
+    {
+    padding:0;
+    margin:0;
+    }
+   
+button
+    {
+        text-align: center;
+        font-size: 35px;
+        border: 4px solid black;
+        background-color:#9C0F48;
+        color:whitesmoke;
+        border-radius: 50px;
+        margin: 5px 5px;
+        padding: 5px;
+    }
+   .content-container button a{
+        color: whitesmoke;
+        font-variant: small-caps;
+    }
+.content-container button a:hover{
+    color: #270082;
+}
+body
+    {
+    overflow-x:hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.div_one{
+    border: 5px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    height: 20%;
+    width: 100%;
+}
+.container{
+    background-image: url("PIC_FOR_PROJECTS/why_acs_0000001.jpg");
+}
+/*.container {
+    width:100%;
+    background-color:white;
+    border: 5px solid black;
+      
+    }
+    #one,#two,#three,#four{
+    width:25%;
+    height:auto;
+    }
+    #one {
+    float: left;
+    }
+    
+    #two {
+    float: left;
+    }
+    #three {
+
+      float: left;
+    }
+    #four {
+    float:right;
+    }*/
+figcaption{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: cursive;
+    text-align:center;
+}
+
+.section-container
+    {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+
+
+    }
+.section-container .columns
+    {
+    flex:0 0 auto;
+    width:50%;
+    }
+.section-container .columns.image
+    {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    }
+.section-container .columns.content .content-container
+    {
+    padding:40px 50px;
+    }
+.section-container .columns.content .content-container h2
+    {
+    font-weight:700;
+    font-size:45px;
+    margin-bottom:20px;
+    }
+.section-container .columns.content .content-container p
+    {
+    font-weight:900;
+    font-size:30px;
+    margin-bottom:20px;
+    margin-bottom:15px;
+    text-align:justify;
+    }
+    #random{
+        background-color:#C0D8C0 ;
+        font-size: 35px;
+        text-align: center;
+        font-weight: 400;
+        border: 4px solid black;
+    }
+    #random button a{
+        font-variant: small-caps;
+    }
+@media screen and (max-width:767px)
+    {
+    .section-container
+    {
+        flex-flow:row wrap;
+    }
+    .section-container .columns.image
+        {
+            display:block;
+            order:1;
+            width:100%;
+            height:350px;
+        }
+    .section-container .columns.content
+        {
+            display:block;
+            order:2;
+            width:100%;
+        }
+    .section-container .columns.content .content-container
+        {
+            padding:20px 35px;
+        }
+    .section-container .columns.content .content-container h5
+        {
+            margin-bottom:5px;
+        }
+    .selection-container .columns.content .content-container ul li{
+
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .container #one #two #three #four{
+        width: 70%;
+        display: block;
+    }
+}

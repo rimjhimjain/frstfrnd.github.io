@@ -1,0 +1,52 @@
+h1
+    {
+        font-size: 60px;
+        font-variant:unset;
+        text-align: center;
+        font-family: cursive;
+        font-variant: small-caps;
+    }
+
+h2
+    {
+        font-size: 55px;
+        font-family: cursive;
+        text-align: center;
+    }
+
+h3
+    {
+        font-size: 48px;
+        background-color: #8E806A;
+        text-align: center;
+        font-variant: small-caps;
+        color: whitesmoke;
+        text-shadow:3px 3px #5E454B;
+    }
+
+h4
+    {
+        font-size: 40px;
+        font-variant: small-caps;
+    }
+h5
+    {
+        font-size: 30PX;
+        font-variant: small-caps;
+    }
+p
+    {
+        font-size: 20PX;
+    }
+li 
+    {
+        font-size: 20px;
+    }
+body
+    {
+        background-image: radial-gradient(#8E806A,#E4CDA7,#C3B091,#F6D7A7);
+    }
+ul:first-child
+    {
+        font-weight: bolder;
+    }
