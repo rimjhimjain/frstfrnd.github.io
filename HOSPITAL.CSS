@@ -5,16 +5,18 @@
 body{
 
     border: 5px solid black;
-    background-image: url("PIC_FOR_PROJECTS/hospital_pic_bckground_01.jpg");
-
+    background-color: rgb(51, 85, 85);
+    background-repeat: no-repeat;
+    background-size: contain;
+     /* opacity: 50%; */
 
 }
 p{
     font-size: 50px;
     font-weight: bolder;
-    font-family: cursive;
-    text-decoration: underline;
-    text-shadow: 3px 3px white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-decoration: underline; */
+    text-shadow: 3px 3px rgb(177, 124, 124);
 }
 
 .city{
@@ -39,7 +41,7 @@ img{
 }
 a div h1{
     color: black;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px rgb(172, 125, 125);
 }
 a div:hover{
     height:500px;
@@ -55,3 +57,27 @@ a div:hover{
 
     }
 }
+.message {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: white;
+    font-family: "Josefin Slab", serif;
+    line-height: 27px;
+    font-size: 18px;
+    text-align: right;
+    pointer-events: none;
+    animation: message-frames 1.5s ease 5s forwards;
+    opacity: 0;
+  
+    @keyframes message-frames {
+      from {
+        opacity: 0;
+      }
+  
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  
